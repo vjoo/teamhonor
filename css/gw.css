@@ -55,8 +55,16 @@ header {
   margin-top: 40px;
 }
 .swiper {
-  height: 100vh;
+  height: 100vh;background: #000;
 }
+.swiper-slide img {
+  display: block;
+  width: 100%; 
+}
+.swiper-slide {
+        background-position: center;
+        background-size: cover;
+      }
 .a {
   background-image: url(../images/View6.jpg);
   background-position: top center;

@@ -130,7 +130,10 @@
   var mySwiper = new Swiper(".swiper", {
     // direction: 'vertical', // 垂直切换选项
     loop: true, // 循环模式选项
-
+    effect : 'fade',
+  fadeEffect: {
+    crossFade: true,
+  },
     // 如果需要分页器
     pagination: {
       el: ".swiper-pagination",
@@ -140,6 +143,11 @@
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
+    },
+    autoplay: {
+    delay: 8000,
+    stopOnLastSlide: false,
+    disableOnInteraction: true,
     },
     on: {
       init: function () {
