@@ -29,7 +29,7 @@ header {
 .menu.scrolled {
   /* background-color: black; */
   background: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(14px);
+  backdrop-filter: blur(10px);
 }
 
 .hide {
@@ -51,9 +51,15 @@ header {
 .tm20 {
   margin-top: 20px;
 }
+.tm30 {
+  margin-top: 30px;
+}
 .tm40 {
   margin-top: 40px;
 }
+.mb20{margin-bottom: 20px;}
+.mb30{margin-bottom: 30px;}
+.mb40{margin-bottom: 40px;}
 .swiper {
   height: 100vh;background: #000;
 }
@@ -66,12 +72,12 @@ header {
         background-size: cover;
       }
 .a {
-  background-image: url(../images/View6.jpg);
+  background-image: url(../images/View1.jpg);
   background-position: top center;
   background-size: cover;
 }
 .b {
-  background-image: url(../images/View1.jpg);
+  background-image: url(../images/View9.jpg);
   background-position: top center;
   background-size: cover;
 }
@@ -215,3 +221,34 @@ header {
   left: 0;
   width: 100%;
 }
+.fbox{display: flex;flex-direction: row;
+  justify-content: space-between;width: 1200px;}
+.hbox{background: #F7FAFF;width: 100%;}
+.bgw{background: #ffffff;}
+.btt{text-align: center; color:#000;font-size: 28px;margin: 0px auto 40px auto ;border-bottom:2px solid #999;height: 55px;}
+.btt-box{display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;padding:50px 0px;min-height: 700px;}
+.btt-left{width: 400px;}
+.btt-right{ background-image: url(../images/t1.png);
+  background-position: top center;
+  background-size: cover;width:670px;height: 507px;}
+.ft36{font-size: 36px;color:#000;font-weight: bolder;}
+.ft18{font-size: 18px;color:#666;}
+.ft18 b{font-weight: bolder;color:#000;}
+
+.btt-left-j{background-image: url(../images/View4.jpg);
+  background-position: top right;
+  background-size: cover;width: 450px;height: 500px;}
+.btt-right-j{width: 670px;}
+.dh-btn{width: 480px;display: flex;margin:0px auto 50px auto;text-align: center;    flex-direction: row;
+  justify-content: space-between;}
+.dh-btn1{border: 1px solid #023aff;padding:6px 35px;text-align: center;color:#000;border-radius: 100px;font-size: 18px;}
+.dh-btn1.vii{background: #023aff;color:#ffffff}
+
+.btt-right-s{background-image: url(../images/View9.jpg);
+  background-position:center;
+  background-size: cover;width: 450px;height: 500px;}
+.btt-left-s{width: 670px;}
