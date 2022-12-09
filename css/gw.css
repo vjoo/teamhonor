@@ -408,8 +408,8 @@ header {
   color: #ffffff;transition: all 0.5s;
 }
 .as{text-decoration: none;}
-.as:hover .dh-btn1{background: #c3e3ff;}
-.as:hover .dh-btn1.vii{background: #0067C0;}
+.as:hover .dh-btn1{background: #f1f1f1;}
+.as:hover .dh-btn1.vii{background: #0067C0;cursor:default;}
 
 .btt-right-s {
   background-image: url(../images/View2.jpg);
