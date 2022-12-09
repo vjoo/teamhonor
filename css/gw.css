@@ -23,6 +23,15 @@ ul,
 li {
   list-style-type: none;
 }
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
 header {
   transition: 0.5s;
 }
@@ -56,6 +65,10 @@ header {
 }
 .tm40 {
   margin-top: 40px;
+}
+ 
+.tm60 {
+  margin-top: 60px;
 }
 .mb20{margin-bottom: 20px;}
 .mb30{margin-bottom: 30px;}
@@ -108,7 +121,7 @@ header {
   z-index: 1;
 }
 .swiper .ftext1 {
-  font-size: 70px;
+  font-size: 50px;
   text-align: center;
   font-weight: bolder;
 }
@@ -182,11 +195,11 @@ header {
 }
 .menu .rightmenu li a .menu_active {
   height: 31px;
-  border-bottom: 4px solid rgba(2, 58, 255, 1);
+  border-bottom: 4px solid #0067C0;
 }
 .menu .rightmenu li a p:hover {
   height: 31px;
-  border-bottom: 4px solid rgba(2, 58, 255, 1);
+  border-bottom: 4px solid #0067C0
 }
 
 :root {
@@ -208,10 +221,10 @@ header {
 }
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
-  background-color: rgb(2, 58, 255);
+  background-color: #0067C0;
 }
 .swiper-pagination-bullet {
-  background-color: #023aff;
+  background-color: #0067C0;
 }
 .swiper-horizontal > .swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal,
@@ -239,16 +252,36 @@ header {
 .ft18{font-size: 18px;color:#666;}
 .ft18 b{font-weight: bolder;color:#000;}
 
-.btt-left-j{background-image: url(../images/View4.jpg);
-  background-position: top right;
+.btt-left-j{background-image: url(../images/View9.jpg);
+  background-position:center;
   background-size: cover;width: 450px;height: 500px;}
 .btt-right-j{width: 670px;}
 .dh-btn{width: 480px;display: flex;margin:0px auto 50px auto;text-align: center;    flex-direction: row;
   justify-content: space-between;}
-.dh-btn1{border: 1px solid #023aff;padding:6px 35px;text-align: center;color:#000;border-radius: 100px;font-size: 18px;}
-.dh-btn1.vii{background: #023aff;color:#ffffff}
+.dh-btn1{border: 1px solid #0067C0;padding:6px 35px;text-align: center;color:#000;border-radius: 100px;font-size: 18px;}
+.dh-btn1.vii{background: #0067C0;color:#ffffff}
 
-.btt-right-s{background-image: url(../images/View9.jpg);
+.btt-right-s{background-image: url(../images/View2.jpg);
   background-position:center;
   background-size: cover;width: 450px;height: 500px;}
 .btt-left-s{width: 670px;}
+.btt-left-v{background-image: url(../images/View8.jpg);
+  background-position:left;
+  background-size: cover;width: 450px;height: 500px;}
+.btt-right-v{width: 670px;}
+.bok{display: flex;flex-direction: row;
+  justify-content: space-between;}
+.bok div{width: 130px;}
+.bok p b{font-size: 16px; color: #000;}
+.bok p{font-size: 14px; color: #666666;margin: 10px 0px;}
+.ali{display: flex;flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;width: 1200px;}
+  .ali div{margin-bottom: 20px;display: flex;align-items: flex-end;}
+  .ali div p{margin:30px 0px 20px 30px;font-size: 18px;color:#fff;}
+  .ali1{background-image: url(../images/ali1.png);width:390px;height: 530px;background-repeat: no-repeat;}
+  .ali2{background-image: url(../images/ali2.png);width:390px;height: 530px;background-repeat: no-repeat;}
+  .ali3{background-image: url(../images/ali3.png);width:390px;height: 530px;background-repeat: no-repeat;}
+  .ali4{background-image: url(../images/ali4.png);width:390px;height: 530px;background-repeat: no-repeat;}
+  .ali5{background-image: url(../images/ali5.png);width:390px;height: 530px;background-repeat: no-repeat;}
+  .ali6{background-image: url(../images/ali6.png);width:390px;height: 530px;background-repeat: no-repeat;}
