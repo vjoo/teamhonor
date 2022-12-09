@@ -85,7 +85,7 @@ header {
         background-size: cover;
       }
 .a {
-  background-image: url(../images/View6.jpg);
+  background-image: url(../images/View13.jpg);
   background-position: top center;
   background-size: cover;
 }
@@ -100,7 +100,7 @@ header {
   background-size: cover;
 }
 .d {
-  background-image: url(../images/View3.jpg);
+  background-image: url(../images/View9.jpg);
   background-position: top center;
   background-size: cover;
 }
@@ -279,9 +279,9 @@ header {
   flex-direction: row;width: 1200px;}
   .ali div{margin-bottom: 20px;display: flex;align-items: flex-end;}
   .ali div p{margin:30px 0px 20px 30px;font-size: 18px;color:#fff;}
-  .ali1{background-image: url(../images/ali1.png);width:390px;height: 530px;background-repeat: no-repeat;}
-  .ali2{background-image: url(../images/ali2.png);width:390px;height: 530px;background-repeat: no-repeat;}
-  .ali3{background-image: url(../images/ali3.png);width:390px;height: 530px;background-repeat: no-repeat;}
-  .ali4{background-image: url(../images/ali4.png);width:390px;height: 530px;background-repeat: no-repeat;}
-  .ali5{background-image: url(../images/ali5.png);width:390px;height: 530px;background-repeat: no-repeat;}
-  .ali6{background-image: url(../images/ali6.png);width:390px;height: 530px;background-repeat: no-repeat;}
+  .ali1{background-image: url(../images/ali1.jpg);width:390px;height: 530px;background-repeat: no-repeat;}
+  .ali2{background-image: url(../images/ali2.jpg);width:390px;height: 530px;background-repeat: no-repeat;}
+  .ali3{background-image: url(../images/ali3.jpg);width:390px;height: 530px;background-repeat: no-repeat;}
+  .ali4{background-image: url(../images/ali4.jpg);width:390px;height: 530px;background-repeat: no-repeat;}
+  .ali5{background-image: url(../images/ali5.jpg);width:390px;height: 530px;background-repeat: no-repeat;}
+  .ali6{background-image: url(../images/ali6.jpg);width:390px;height: 530px;background-repeat: no-repeat;}
