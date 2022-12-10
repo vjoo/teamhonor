@@ -150,7 +150,7 @@ header {
   width: 100%;
   height: 100%;
   background: black;
-  opacity: 0.4;
+  opacity: 0.5;
   left: 0px;
   top: 0px;
 }
@@ -165,11 +165,13 @@ header {
   font-size: 50px;
   text-align: center;
   font-weight: bolder;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .swiper .ftext2 {
   font-size: 18px;
   text-align: center;
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.6);
 }
 
 .swiper .ftext3 {
@@ -593,24 +595,15 @@ header {
   display: block;
   margin-top: -5px;
 }
+#tab-list{width: 670px;height: 507px;position: relative;}
+ 
+#ul1{height: 32px;position: absolute;right: 0;font-size: 14px;}
+#ul1 li{display: inline-block;padding:0px 10px;line-height: 30px;text-align: center;border: 1px solid #c0d1ff; color:#666;background-color: #f7faff;}
+#ul1 li:hover{cursor: pointer;}
+#ul1 li.active{border: 1px solid #023aff; color:#023aff;background-color: #fff;}
 
-.anan {
-  display: flex;
-  width: 100%;    flex-direction: column;
-  align-items: flex-end;
-}
+#tab-list div{width: 100%;}
 
-.anan a {
-  background: #333;
-  color: #fff;
-  font-size: 14px;
-  text-decoration: none;
-  padding: 6px;
-  display: block;
-  width: 70px;
-  text-align: center; margin-bottom: 4px;
-} 
-.anan a.anvi {
-   color: #333;background: #fff;
-}
-.anan a:hover{background: #3893e2;color: #fff;}
+
+#tab-list .show{display: block;} #tab-list .hide{display: none;}
+ 
