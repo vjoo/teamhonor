@@ -331,7 +331,7 @@ header {
 }
 
 .btt-left {
-  width: 400px;
+  width: 530px;
 }
 
 .btt-right {
@@ -339,8 +339,7 @@ header {
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
-  width: 670px;
-  height: 557px;
+  width: 600px; 
 }
 .btt-right.t2 {
   background-image: url(../images/t2.jpg); 
@@ -402,7 +401,7 @@ header {
 .dh-btn {
   width: 480px;
   display: flex;
-  margin: 0px auto 50px auto;
+  margin: 10px auto 50px auto;
   text-align: center;
   flex-direction: row;
   justify-content: space-between;
@@ -493,9 +492,10 @@ header {
 }
 
 .ali div {
-  margin-bottom: 20px;
+ 
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
+  flex-direction: column-reverse;
 }
 
 .ali div p {
@@ -508,43 +508,54 @@ header {
   background-image: url(../images/ali1.jpg);
   width: 390px;
   height: 530px;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;margin-bottom: 20px;
 }
-
+ 
 .ali2 {
   background-image: url(../images/ali2.jpg);
   width: 390px;
   height: 530px;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;margin-bottom: 20px;
 }
 
 .ali3 {
   background-image: url(../images/ali3.jpg);
   width: 390px;
   height: 530px;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;margin-bottom: 20px;
 }
 
 .ali4 {
   background-image: url(../images/ali4.jpg);
   width: 390px;
   height: 530px;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;margin-bottom: 20px;
 }
 
 .ali5 {
   background-image: url(../images/ali5.jpg);
   width: 390px;
   height: 530px;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;margin-bottom: 20px;
 }
 
 .ali6 {
   background-image: url(../images/ali6.jpg);
   width: 390px;
   height: 530px;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;margin-bottom: 20px;
 }
+ .albb{position: absolute;}
+.ali1 .albb,.ali2 .albb,.ali3 .albb,.ali4 .albb,.ali5 .albb,.ali6 .albb{opacity: 1;}
+.ali1:hover .albb,.ali2:hover .albb,.ali3:hover .albb,.ali4:hover .albb,.ali5:hover .albb,.ali6:hover .albb{opacity: 0;}
+.ali1 .alxx,.ali2 .alxx,.ali3 .alxx,.ali4 .alxx,.ali5 .alxx,.ali6 .alxx{opacity: 0;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;background: rgba(0, 0, 0, 0.8);}
+.ali1 .alxx p,.ali2 .alxx p,.ali3 .alxx p,.ali4 .alxx p,.ali5 .alxx p,.ali6 .alxx p{font-size: 16px;line-height: 1.2;margin: 10px 0px 10px 0px;}
+.ali1:hover .alxx,.ali2:hover .alxx,.ali3:hover .alxx,.ali4:hover .alxx,.ali5:hover .alxx,.ali6:hover .alxx{opacity: 1;color: #fff;}
 
 .foot {
   background-color: #262626;
@@ -595,13 +606,13 @@ header {
   display: block;
   margin-top: -5px;
 }
-#tab-list{width: 670px;height: 507px;position: relative;}
+#tab-list{width: 600px;position: relative;}
  
 #ul1{height: 32px;position: absolute;right: 0;font-size: 14px;}
 #ul1 li{display: inline-block;padding:0px 10px;line-height: 30px;text-align: center;border: 1px solid #c0d1ff; color:#666;background-color: #f7faff;}
 #ul1 li:hover{cursor: pointer;}
 #ul1 li.active{border: 1px solid #023aff; color:#023aff;background-color: #fff;} 
-#tab-list div{width: 100%;} 
+#tab-list div{width: 100%;margin-top: 64px;} 
 #tab-list .show{display: block;} #tab-list .hide{display: none;}
 @keyframes Up{
   0%{
@@ -614,3 +625,4 @@ header {
   }
 }
 .Up{animation-name: Up;}
+.hbox a{text-decoration: none;}
