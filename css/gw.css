@@ -300,6 +300,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   width: 1200px;
+  position: relative;
 }
 
 .hbox {
@@ -326,12 +327,12 @@ header {
   flex-direction: column;
   align-content: center;
   align-items: center;
-  padding: 50px 0px;
+  padding: 60px 0px;
   min-height: 700px;
 }
 
 .btt-left {
-  width: 530px;
+  width: 439px;
 }
 
 .btt-right {
@@ -384,7 +385,16 @@ header {
   font-weight: bolder;
   color: #000;
 }
-
+.ft20 {
+  font-size: 20px;
+  
+  color: #fff;
+}
+.ft24 {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #fff;
+}
 .btt-left-j {
   background-image: url(../images/View9.jpg);
   background-repeat: no-repeat;
@@ -606,13 +616,13 @@ header {
   display: block;
   margin-top: -5px;
 }
-#tab-list{width: 600px;position: relative;}
+#tab-list{/* width: 600px; */position: relative;}
  
 #ul1{height: 32px;position: absolute;right: 0;font-size: 14px;}
 #ul1 li{display: inline-block;padding:0px 10px;line-height: 30px;text-align: center;border: 1px solid #c0d1ff; color:#666;background-color: #f7faff;}
 #ul1 li:hover{cursor: pointer;}
 #ul1 li.active{border: 1px solid #023aff; color:#023aff;background-color: #fff;} 
-#tab-list div{width: 100%;margin-top: 64px;} 
+#tab-list div{width: 100%;/* margin-top: 64px; */} 
 #tab-list .show{display: block;} #tab-list .hide{display: none;}
 @keyframes Up{
   0%{
@@ -626,3 +636,21 @@ header {
 }
 .Up{animation-name: Up;}
 .hbox a{text-decoration: none;}
+.zd{background-color: #ffffff;
+  border-radius: 3px;
+  padding: 30px 30px;
+  border: 1px dashed #007aff;
+  box-shadow: 6px 8px 10px rgb(214 218 230 / 70%);}
+  .nbm {border: 0px;
+    padding: 15px 0px; 
+    font-size: 18px;
+    background-color: #0067c0;
+    color: #fff;position:absolute;width: 439px;top: 360px;opacity: 1;} 
+    .ycyc{position:absolute;width: 439px;background: #0067c0;padding:30px 20px;text-align: left;opacity: 0;}
+    .ycyc .ft14{color:rgba(255, 255, 255, 0.6)}
+    .ycyc .ft16 b{color:#fff}
+    .nbm:hover {top: 0px;}
+    .nbm:hover .ycyc{opacity: 1;}
+    .ffgg{display: flex;}
+    .f1{background-color: #444;margin-left:10px;height:60px;width: 120px;text-align: center;} 
+    .c9 b{color: #ffffff;font-weight: bolder;}
