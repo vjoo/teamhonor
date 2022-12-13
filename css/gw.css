@@ -71,7 +71,9 @@ header {
 .tm10 {
   margin-top: 10px;
 }
-
+.tm15 {
+  margin-top: 15px;
+}
 .tm20 {
   margin-top: 20px;
 }
@@ -652,5 +654,5 @@ header {
     .nbm:hover {top: 0px;}
     .nbm:hover .ycyc{opacity: 1;}
     .ffgg{display: flex;}
-    .f1{background-color: #444;margin-left:10px;height:60px;width: 120px;text-align: center;} 
+    
     .c9 b{color: #ffffff;font-weight: bolder;}
