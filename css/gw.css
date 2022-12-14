@@ -168,17 +168,23 @@ header {
   text-align: center;
   font-weight: bolder;
   text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+  line-break: anywhere;
+  word-break: break-all;
 }
 
 .swiper .ftext2 {
   font-size: 18px;
   text-align: center;
   text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.6);
+  line-break: anywhere;
+  word-break: break-all;
 }
 
 .swiper .ftext3 {
   font-size: 14px;
   text-align: center;
+  line-break: anywhere;
+  word-break: break-all;
 }
 
 .swiper .ct {
@@ -351,65 +357,91 @@ header {
   font-size: 36px;
   color: #000;
   font-weight: bolder;
+  line-break: anywhere;
+  word-break: break-all;
 }
 .ft28 {
   font-size: 28px;
   color: #000;
   font-weight: bolder;
+  line-break: anywhere;
+  word-break: break-all;
 }
 
 .ft30 {
   font-size: 30px;
   color: #000;
   font-weight: bolder;
+  line-break: anywhere;
+  word-break: break-all;
 }
 
 .ft12 {
   font-size: 12px;
   color: #666;
+  line-break: anywhere;
+  word-break: break-all;
 }
 
 .ft14 {
   font-size: 14px;
   color: #666;
+  line-break: anywhere;
+  word-break: break-all;
 }
 
 .ft16 {
   font-size: 16px;
   color: #666;
+  line-break: anywhere;
+  word-break: break-all;
 }
 
 .ft16 b {
   font-weight: bolder;
   color: #000;
+  line-break: anywhere;
+  word-break: break-all;
 }
 
 .ft18s {
   font-size: 18px;
   color: #fff;
+  line-break: anywhere;
+  word-break: break-all;
 }
 
 .ft18 {
   font-size: 18px;
   color: #666;
+  line-break: anywhere;
+  word-break: break-all;
 }
 
 .ft18 b {
   font-weight: bolder;
   color: #000;
+  line-break: anywhere;
+  word-break: break-all;
 }
 .ft20s {
   font-size: 20px; 
   color: #666;
+  line-break: anywhere;
+  word-break: break-all;
 }
 .ft20 {
   font-size: 20px; 
   color: #fff;
+  line-break: anywhere;
+  word-break: break-all;
 }
 .ft24 {
   font-size: 24px;
   font-weight: bolder;
   color: #fff;
+  line-break: anywhere;
+  word-break: break-all;
 }
 .btt-left-j {
   background-image: url(../images/View9.jpg);
