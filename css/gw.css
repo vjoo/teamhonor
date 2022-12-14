@@ -378,23 +378,17 @@ header {
 
 .ft12 {
   font-size: 12px;
-  color: #666;
-  line-break: anywhere;
-  word-break: break-all;
+  color: #666; 
 }
 
 .ft14 {
   font-size: 14px;
-  color: #666;
-  line-break: anywhere;
-  word-break: break-all;
+  color: #666; 
 }
 
 .ft16 {
   font-size: 16px;
-  color: #666;
-  line-break: anywhere;
-  word-break: break-all;
+  color: #666; 
 }
 
 .ft16 b {
