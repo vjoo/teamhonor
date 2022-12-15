@@ -1,17 +1,21 @@
 
 .Demo {
   width: 100%;
-  padding: 0.8em 1em 0;
+  padding: 1em 1em 0;
   background: #ffffff;
   border-radius: 4px;
   font-size: 16px;
-  color: #000000;
+  color: #333333;
   border: 1px dashed rgb(60 60 60 / 40%);
   box-shadow: 0px 4px 5px rgb(214 218 230 / 70%);
 }
 .Demo .Demo{background: #0067c0;color: #fff;}
-
-.Demo-w .Demo{background-color: #ffffff;color: #333333;}
+.Demo .top1em{margin-top: 1em;}
+.Demo .top1em .Grid-cell{margin: 0.5em 0px;}
+.Demo-w .Demo{background-color: #ffffff;color: #666666; font-size: 14px;}
+.amtext{display: flex;
+  flex-direction: column;
+  justify-content: center;}
 .Demo-top{padding-top:1em;}
 .Demo:after {
   content: "\00a0";
@@ -401,8 +405,13 @@
 .u-1of4 {
   width: 25% !important
 }
-
-.u-1of4,
+.u-1of5 {
+  width: 20% !important
+}
+.u-1of10 {
+  width: 10% !important
+}
+.u-1of4,.u-1of5,.u-1of10,
 .u-3of4 {
   -webkit-box-flex: 0 !important;
   -webkit-flex: none !important;
