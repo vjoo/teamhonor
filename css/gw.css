@@ -491,6 +491,7 @@ header {
   background-size: cover;
   width: 450px;
   height: 500px;
+  border-radius: 6px;
 }
 
 .btt-right-j {
@@ -542,6 +543,7 @@ header {
   background-size: cover;
   width: 450px;
   height: 500px;
+  border-radius: 6px;
 }
 
 .btt-left-s {
@@ -555,6 +557,7 @@ header {
   background-size: cover;
   width: 450px;
   height: 500px;
+  border-radius: 6px;
 }
 
 .btt-right-v {
@@ -594,7 +597,7 @@ header {
  
   display: flex;
   align-items: flex-start;
-  flex-direction: column-reverse;
+  flex-direction: column-reverse;border-radius: 6px;
 }
 
 .ali div p {
@@ -753,8 +756,8 @@ header {
 .zd{background-color: #ffffff;
   border-radius: 3px;
   padding: 30px 30px;
-  border: 1px dashed #007aff;
-  box-shadow: 6px 8px 10px rgb(214 218 230 / 70%);}
+  border: 1px dashed rgb(60 60 60 / 40%);
+  box-shadow: 0px 4px 5px rgb(214 218 230 / 70%);}
   .nbm {height: 400px;width: 439px;}
   .nbm .gs{
     width: 120px;text-align: center;
