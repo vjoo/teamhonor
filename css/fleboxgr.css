@@ -12,7 +12,7 @@
 .Demo .Demo{background: #0067c0;color: #fff;}
 .Demo .top1em{margin-top: 1em;}
 .Demo .top1em .Grid-cell{margin: 0.5em 0px;}
-.Demo-w .Demo{background-color: #ffffff;color: #666666; font-size: 14px;}
+.Demo-w .Demo{background-color: #ffffff;color: #666666; font-size: 16px;}
 .amtext{display: flex;
   flex-direction: column;
   justify-content: center;}
