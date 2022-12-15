@@ -645,16 +645,16 @@ header {
   background-repeat: no-repeat;margin-bottom: 20px;
 }
  .albb{position: absolute;}
-.ali1 .albb,.ali2 .albb,.ali3 .albb,.ali4 .albb,.ali5 .albb,.ali6 .albb{opacity: 1;}
-.ali1:hover .albb,.ali2:hover .albb,.ali3:hover .albb,.ali4:hover .albb,.ali5:hover .albb,.ali6:hover .albb{opacity: 0;}
+.ali1 .albb,.ali2 .albb,.ali3 .albb,.ali4 .albb,.ali5 .albb,.ali6 .albb{opacity: 1;transition: all 0.5s;}
+.ali1:hover .albb,.ali2:hover .albb,.ali3:hover .albb,.ali4:hover .albb,.ali5:hover .albb,.ali6:hover .albb{opacity: 0;transition: all 0.5s;}
 .ali1 .alxx,.ali2 .alxx,.ali3 .alxx,.ali4 .alxx,.ali5 .alxx,.ali6 .alxx{opacity: 0;
   padding: 40px;
   display: flex;
   flex-direction: column;
   height: 100vh;
-  width: 100%;background: rgba(0, 0, 0, 0.8);}
+  width: 100%;background: rgba(0, 0, 0, 0.8);transition: all 0.5s;}
 .ali1 .alxx p,.ali2 .alxx p,.ali3 .alxx p,.ali4 .alxx p,.ali5 .alxx p,.ali6 .alxx p{font-size: 16px;line-height: 1.2;margin: 10px 0px 10px 0px;}
-.ali1:hover .alxx,.ali2:hover .alxx,.ali3:hover .alxx,.ali4:hover .alxx,.ali5:hover .alxx,.ali6:hover .alxx{opacity: 1;color: #fff;}
+.ali1:hover .alxx,.ali2:hover .alxx,.ali3:hover .alxx,.ali4:hover .alxx,.ali5:hover .alxx,.ali6:hover .alxx{opacity: 1;color: #fff;transition: all 0.5s;}
 
 .foot {
   background-color: #262626;
