@@ -687,7 +687,9 @@ header {
 .foot2 .ftb {
   padding: 20px 0px 20px 0px;
   font-size: 12px;
-  color: #999
+  color: #939393;
+  display: flex;
+    justify-content: flex-start;
 }
 
 .c9 {
