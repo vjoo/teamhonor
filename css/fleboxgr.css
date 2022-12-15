@@ -9,10 +9,15 @@
   border: 1px dashed rgb(60 60 60 / 40%);
   box-shadow: 0px 4px 5px rgb(214 218 230 / 70%);
 }
-.Demo .Demo{background: #0067c0;color: #fff;}
+/* .Demo .Demo{background: #0067c0;color: #fff;} */
+
+.Demo .Demo{background-image:linear-gradient(to right,#0067c0, #2f7fc5);color: #fff;}
+.Demo-w .Demo{background-image:linear-gradient(to right,#f7f7f7, #ffffff);color: #666666;}
+ 
+
 .Demo .top1em{margin-top: 1em;}
 .Demo .top1em .Grid-cell{margin: 0.5em 0px;}
-.Demo-w .Demo{background-color: #ffffff;color: #666666; font-size: 16px;}
+/* .Demo-w .Demo{background-color: #ffffff;color: #666666; font-size: 16px;} */
 .amtext{display: flex;
   flex-direction: column;
   justify-content: center;}
