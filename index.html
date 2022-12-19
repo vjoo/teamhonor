@@ -20,7 +20,7 @@
 
 <body>
   <section class="container">
-    <header class="menu">
+    <header class="menu" id="dhbug">
       <div class="pcmenu_container">
         
           <div class="menu_logo"></div>
@@ -1088,9 +1088,8 @@
 </html>
 
 <script src="swiper/swiper-bundle.min.js"></script>
-<!-- <script src="https://unpkg.com/swiper@8.3.0/swiper-bundle.min.js.map"></script> -->
 <script src="swiper/swiper.animate1.0.3.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/wow.min.js"></script>
+<script src="js/wow.min.js"></script><!--延迟动画-->
 <script src="js/jquery-1.11.3.min.js"></script>
 <script>
   var mySwiper = new Swiper(".swiper", {
@@ -1131,16 +1130,16 @@
     },
 
   });
-</script>
+</script><!--焦点图-->
 <script>
   new WOW().init();
-</script>
+</script><!--延迟动画-->
 <script>
   window.addEventListener("scroll", function () {
     var header = document.querySelector("header");
     header.classList.toggle("scrolled", window.scrollY > 60);//加载样式和响应高度
   })
-</script>
+</script><!--导航-->
 <script>
   // $('.AAAA').click(function(){$(window.scrollTo(0,0)).animate({scrollTop:$('.aaaa-01').offset().top}, 800);}); 
   $('.AAAA').click(function () { $('html,body').animate({ scrollTop: $('.aaaa-01').offset().top }, 800); });
@@ -1150,7 +1149,7 @@
   $('.aa1').click(function () { $('html,body').animate({ scrollTop: $('.aa-01').offset().top }, 800); });
   $('.aa2').click(function () { $('html,body').animate({ scrollTop: $('.aa-02').offset().top }, 800); });
   $('.aa3').click(function () { $('html,body').animate({ scrollTop: $('.aa-03').offset().top }, 800); }); 
-</script>
+</script><!--喵点-->
 
 <script>
   $(function () {
@@ -1167,4 +1166,9 @@
     })
   })
 
-</script>
+</script><!--切换-->
+<script>
+  setTimeout(() => {
+      document.getElementById("dhbug").style.height = "60px"
+  }, 1000)
+</script><!--safari背景模糊兼容-->
