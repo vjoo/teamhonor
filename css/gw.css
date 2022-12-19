@@ -710,7 +710,7 @@ header {
   display: block;
   margin-top: -5px;
 }
-#tab-list{ width: 720px; position: relative;}
+#tab-list{ width: 670px;height: 507px; position: relative;}
  
 #ul1{height: 32px;position: absolute;right: 0;bottom:8px;font-size: 14px;display: flex;
   width: 160px;
@@ -718,7 +718,7 @@ header {
   justify-content: space-between;}
 #ul1 li{width:80px;display: inline-block;padding:0px 10px;line-height: 30px;text-align: center;border: 1px solid #c0d1ff; color:#666;background-color: #f7faff;}
 #ul1 li:hover{cursor: pointer;}
-#ul1 li.active{border: 1px solid #023aff; color:#023aff;background-color: #fff;} 
+#ul1 li.active{border: 1px solid #0067C0; color:#0067C0;background-color: #fff;} 
 #tab-list div{width: 100%;/* margin-top: 64px; */display: none;} 
 #tab-list .show{display: block;} #tab-list .hide{display: none;}
 
@@ -737,7 +737,7 @@ header {
   justify-content: space-between;}
 #ul2 li{width:80px;display: inline-block;padding:0px 10px;line-height: 30px;text-align: center;border: 1px solid #c0d1ff; color:#666;background-color: #f7faff;}
 #ul2 li:hover{cursor: pointer;}
-#ul2 li.active{border: 1px solid #023aff; color:#023aff;background-color: #fff;} 
+#ul2 li.active{border: 1px solid #0067C0; color:#0067C0;background-color: #fff;} 
 #tab-list2 .div{display: none;}  
 #tab-list2 .show{display: block;} #tab-list2 .hide{display: none;}
 
