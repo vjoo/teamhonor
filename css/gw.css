@@ -518,7 +518,7 @@ header {
 }
 
 .dh-btn1.vii {
-  background: #0067C0;
+  background: #398ccd;/*#0067C0;*/
   color: #ffffff;
   transition: all 0.5s;
 }
@@ -793,3 +793,7 @@ header {
   opacity: 1;
 } 
 .w1200{width: 1200px;}
+
+
+.w1200.mobile{display: none;}
+.w1200.PC{display: block;}
