@@ -887,6 +887,11 @@ header {
 }
 
 .hbox{padding-right:10%;padding-left:10%;}
+.hbox.mbla{padding:0px;}
+.hbox.mbla .ali div { 
+  border-radius: 0px;
+}
+.hbox.mbla .ali6{margin-bottom: 0px;}
 .btt-box{padding:40px 0px;min-height:auto}
 .btt-box.mbmb20{padding-top: 80px;}
 .nbm {
