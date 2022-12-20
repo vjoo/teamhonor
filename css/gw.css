@@ -864,6 +864,13 @@ header {
   align-content: center;
   align-items: center;
 }
+.flb .img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  display: block;
+  margin-top: -5px;
+}
 #tab-list2{width: 100%;height: auto;}
 #ul2{display: none;}
 #tab-list2 #mbxs.div{display: block;}
@@ -878,8 +885,10 @@ header {
   align-content: center;
   align-items: center;
 }
+
 .hbox{padding-right:10%;padding-left:10%;}
 .btt-box{padding:40px 0px;min-height:auto}
+.btt-box.mbmb20{padding-top: 80px;}
 .nbm {
   height: auto;
   width: 100%;
