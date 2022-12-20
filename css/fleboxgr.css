@@ -18,9 +18,12 @@
 .Demo .top1em{margin-top: 1em;}
 .Demo .top1em .Grid-cell{margin: 0.5em 0px;}
 /* .Demo-w .Demo{background-color: #ffffff;color: #666666; font-size: 16px;} */
-.amtext{display: flex;
+.amtext {
+  display: flex;
   flex-direction: column;
-  justify-content: center;}
+  justify-content: center;
+  align-items: center;
+}
 .Demo-top{padding-top:1em;}
 .Demo:after {
   content: "\00a0";
