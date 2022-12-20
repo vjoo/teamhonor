@@ -878,7 +878,7 @@ header {
   align-content: center;
   align-items: center;
 }
-.hbox{padding-right:5%;padding-left:5%;}
+.hbox{padding-right:10%;padding-left:10%;}
 .btt-box{padding:40px 0px;min-height:auto}
 .nbm {
   height: auto;
