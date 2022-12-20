@@ -1215,8 +1215,15 @@
   })
 
 </script><!--切换-->
-<script>
+<!-- <script>
   setTimeout(() => {
       document.getElementById("dhbug").style.height = "60px"
   }, 1000)
-</script><!--safari背景模糊兼容-->
+</script> -->
+<!--safari背景模糊兼容-->
+<script>
+  $(function(){
+    $('dhbug').hide();
+    $('.menu.scrolled').attr("style","height:60px");
+  })
+</script> 
