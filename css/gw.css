@@ -83,11 +83,11 @@ header {
  
 .menu.scrolled .menu_logo {
   float: left;
-  width: 200px;
+  width: 218px;
   height: 30px; 
   margin-top: 14px; 
   background-image: url(../images/teamhonor2.svg);
-  background-size:200px 30px;
+  background-size:218px 30px;
   background-repeat: no-repeat;transition: all ease-out 0.3s;
 }
 
@@ -958,6 +958,52 @@ header {
   font-size: 14px;
   align-items: center;
 }
+.a {
+  background-image: url(../images/mb-View13.jpg);
+  background-position: top center;
+  background-size: cover;
+}
+
+.b {
+  background-image: url(../images/mb-View1.jpg);
+  background-position: top center;
+  background-size: cover;
+}
+
+.c {
+  background-image: url(../images/mb-View8.jpg);
+  background-position: top center;
+  background-size: cover;
+}
+
+.d {
+  background-image: url(../images/mb-View9.jpg);
+  background-position: top center;
+  background-size: cover;
+}
+
+
+.btt-left-j {
+  background-image: url(../images/mb-View9.jpg);
+ 
+}
+ 
+.btt-right-s {
+  background-image: url(../images/mb-View2.jpg);
+ 
+} 
+
+.btt-left-v {
+  background-image: url(../images/mb-View8.jpg);
+  
+}
+
+
+
+
+
+
+
 
 #ul1 {
   height: 32px;
