@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <title>自适应首页</title>
+    <style>
+      *{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.menu{
+    height: 2em;
+    background-color:darkgreen;
+    display: flex;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    align-content: space-evenly;
+    margin: 5px 10px;
+}
+.menu ul li {
+    padding: 0px 5px;
+}
+.menu ul li .active a{
+    color: orangered;
+}
+ 
+.menu ul li a {
+    color: white;
+    line-height: 2em;
+    text-align: center;
+ 
+}
+.menu ul li a:hover,a:active {
+    color: orangered;
+    background-color:green;
+}
+ 
+@media only screen and (min-width: 310px) and (max-width: 568px){
+    .menu{
+        font-size:0.5em;
+    }
+}
+ 
+    </style>
+</head>
+<body>
+<header>
+    <nav>
+         <div class="menu">
+             <ul>
+                 <li class="active"><a href="#">首页</a></li>
+                 <li><a href="#">栏目一</a></li>
+                 <li><a href="#">栏目二</a></li>
+                 <li><a href="#">栏目三</a></li>
+                 <li><a href="#">栏目四</a></li>
+                 <li><a href="#">栏目五</a></li>
+                 <li><a href="#">栏目六</a></li>
+             </ul>
+         </div>
+    </nav>
+</header>
+<main>
+测试
+</main>
+ 
+</body>
+</html>

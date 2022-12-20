@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,22 +15,47 @@
   <link rel="stylesheet" href="swiper/animate.min.css" type="text/css" charset="utf-8" />
   <link rel="stylesheet" href="css/fleboxgr.css" type="text/css" charset="utf-8" />
   <link rel="stylesheet" href="css/gw.css" type="text/css" charset="utf-8" />
+   
   <title>未来社区 | 租住服务 | 数字乡村 | 专注社区数字化全域服务-浙江天怀数智科技有限公司</title>
-</head>
+</head> 
+<body> 
+ 
 
-<body>
-  <section class="container">
-    <nav class="mobile mobile_menu">
-      <div class="topmenu white">
-
+  
+  <section class="container"> 
+    <div class="mobile mobile_menu">
+      <div class="topmenu white" id="jjjj"> 
         <div class="menulogo">
-        </div>
+        </div> 
+        <div class="button button_top nav-toggle"> 
+         </div> 
+         <div class="ttbb">
+          <ul class="rightmenu">
+            <li>
+              <a href="javascript:void(0)" class="AAAA" id="AAAA">
+                <p>首页</p>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)" class="BBBB">
+                <p>解决方案</p>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)" class="CCCC">
+                <p>场景案例</p>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)" class="DDDD">
+                <p class="">合作伙伴</p>
+              </a>
+            </li>
+          </ul>
+         </div>
+    </div></div>
 
-        <div id="menubtn" class="button button_top ">
-          <span></span>
-        </div>
-      </div>
-    </nav>
+
     <header class="menu pc" id="dhbug">
       <div class="pcmenu_container">
         <div class="menu_logo"></div>
@@ -1095,8 +1121,8 @@
           style="display:inline-block;text-decoration:none;color:#939393;"><img src="images/WechatIMG1265.png"
             style="float:left;height: 14px;margin:0px 4px;" />浙ICP备2022010650号</a>
       </div>
-    </div>
-  </section>
+    </div> 
+  </section> 
 </body>
 
 </html>
@@ -1180,13 +1206,33 @@
     })
   })
 
-</script><!--切换-->
+</script> 
 <!-- <script>
   setTimeout(() => {
       document.getElementById("dhbug").style.height = "60px"
   }, 1000)
 </script> -->
 <!--safari背景模糊兼容-->
+<script>
+	$('.nav-toggle').click(function () {
+	    $('#jjjj').toggleClass('nav-open');
+	});
+  $('.AAAA').click(function () {
+	    $('#jjjj').toggleClass('nav-open');
+	});
+  $('.BBBB').click(function () {
+	    $('#jjjj').toggleClass('nav-open');
+	});
+  $('.CCCC').click(function () {
+	    $('#jjjj').toggleClass('nav-open');
+	});
+  $('.DDDD').click(function () {
+	    $('#jjjj').toggleClass('nav-open');
+	});
+  $('ttbb').click(function () {
+	    $('#jjjj').toggleClass('nav-open');
+	});
+	</script><!---点击添加点击删除-->
 <script>
   $(function () {
     $('dhbug').hide();
