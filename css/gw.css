@@ -1019,7 +1019,42 @@ header {
 
 
 
+.icon-scroll,
+.icon-scroll:before
+  {position: absolute;
+    bottom: 5%;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+    margin: 0 auto;
+   }
 
+.icon-scroll{ 
+  width: 30px;
+  height:  50px; 
+  box-shadow: inset 0 0 0 2px #ffffff24;
+  border-radius: 25px;z-index: 999;}
+
+.icon-scroll:before{
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #fff; 
+  top: 12px;
+  text-align: center;
+  border-radius: 4px;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+  left: 0;
+    right: 0;
+    margin: 0 auto;
+  }   
+@keyframes scroll{
+  0%{opacity: 0;transform: translateY(20px)};
+  50%{opacity: 0.5;transform: translateY(10px)};
+  100%{opacity: 1;transform: translateY(0px)};
+}
 
 
 
@@ -1470,5 +1505,6 @@ header {
   .rightmenu a{text-decoration:none;}
   .rightmenu a>p {font-size: 24px;color: #ffffff;margin: 30px 0px;text-align: center;}
   .foot2{padding-bottom:10px}
-  
+   
 }
+
