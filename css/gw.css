@@ -1040,10 +1040,10 @@ header {
   width: 8px;
   height: 8px;
   background: #fff; 
-  top: 12px;
+  top: 10px;
   text-align: center;
   border-radius: 4px;
-  animation-duration: 2s;
+  animation-duration: 1.8s;
   animation-iteration-count: infinite;
   animation-name: scroll;
   left: 0;
@@ -1051,7 +1051,8 @@ header {
     margin: 0 auto;
   }   
 @keyframes scroll{
-  0%{opacity: 0;transform: translateY(20px)};
+  0%{opacity: 0;transform: translateY(30px)};
+  20%{opacity: 0.2;transform: translateY(20px)};
   50%{opacity: 0.5;transform: translateY(10px)};
   100%{opacity: 1;transform: translateY(0px)};
 }
