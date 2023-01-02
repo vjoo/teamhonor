@@ -680,6 +680,7 @@ header {
 .albb {
   position: absolute;
 }
+.ali div p.albb{font-size: 24px;font-weight: bold;text-shadow: 0px 5px 5px rgb(0 0 0 / 50%);}
 
 .ali1 .albb,
 .ali2 .albb,
